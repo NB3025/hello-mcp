@@ -6,8 +6,14 @@ MCP(Managed Claude Protocol)를 활용한 로밍 서비스 구현 프로젝트�
 
 1. 가상환경 생성 및 활성화
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv # 가상환경 생성, 3.12 버전 사용
 source .venv/bin/activate  
+```
+
+1-1. EC2 에서 Python3.12 버전 설치
+```bash
+sudo dnf install python3.12
+sudo dnf install python3.12-pip
 ```
 
 2. 의존성 패키지 설치
